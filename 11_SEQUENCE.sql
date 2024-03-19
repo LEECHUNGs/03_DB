@@ -129,7 +129,10 @@ SELECT * FROM EMP_TEMP
 ORDER BY EMP_ID DESC;
 
 
-/*   상담때문에 못들은 부분   */
+-- 테이블, 뷰, 시퀀스 삭제
+DROP TABLE EMP_TEMP;
+DROP VIEW V_DCOPY2;
+DROP SEQUENCE SEQ_TEMP;
 
 
 
